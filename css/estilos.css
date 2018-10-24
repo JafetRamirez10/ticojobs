@@ -1,0 +1,165 @@
+@font-face{
+	font-family: 'BebasNue';
+	src:url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face{
+	font-family: 'Gotham';
+	src:url(../fonts/GothamRoundedBold.ttf);
+}
+@font-face{
+	font-family: 'Gotham2';
+	src:url(../fonts/GothamRoundedBook.ttf);
+}
+.FuenteLetra{
+		font-family: 'BebasNue';
+	}
+.FuenteLetra2{
+	font-family: 'Gotham';
+}
+.FuenteLetra3{
+	font-family: 'Gotham2';
+}
+.tituloModal{
+	color:white;
+	font-size: 2em;
+}
+.modal-header{
+	background: #F42A39;
+}
+header{
+	background: url(../img/fondoHeader.png) no-repeat center;
+	min-height: 100vh;
+	width: 100%;
+}
+.cuadroBusqueda{
+	background-color: rgba(0, 0, 0, 0.6); 
+color: rgba(0, 0, 0, 0.6);
+min-height: 100vh;
+width: 100%;
+}
+.btnContacto{
+	color:white;
+	background: #F42A39;
+	font-size: 2em;
+	padding:2%;
+
+}
+.btnEmpresa{
+	color:white;
+	font-size: 2em;
+	padding:2%;
+	border :1px solid #F42A39;
+}
+.btnContacto, .btnEmpresa{
+	cursor:pointer;
+}
+.titulo{
+	color:white;
+	font-size: 4em;
+}
+.input-group-append, .input-group-text,.iconSearch{
+	background: white;
+	border:0px;
+}
+.textoFormularioPrincipal input{
+	font-size: 1.3em;
+}
+.btnBuscar{
+	color:white;
+	font-size: 2.3em;
+	background: #F42A39;
+}
+.ultimaEntradas{
+	color:white;
+	background: #58595B;
+	font-size:2em;
+}
+.ultimaEntradasIzquierdo{
+	background:#222428;
+	width: 100%;
+	height: 100%;
+}
+
+.ofertaTrabajo h2{
+	font-size: 3em;
+}
+.ofertaTrabajo p{
+	padding: 1% 0%;
+}
+.btnAplicar{
+	color:#F42A39;
+	font-size: 2em;
+	padding:2%;
+	border :1px solid #F42A39;
+}
+.btnInformacion{
+	color:white;
+	font-size: 2em;
+	padding:2%;
+	background :#F42A39;
+}
+.page-item.active .page-link{
+	background: #F42A39!important;
+	/*border:0px;*/
+}
+li.page-item.active .page-link{
+	border:0px;
+}
+.page-link{
+	color:#F42A39;
+}
+.OfertaProvincia{
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	background: url(../img/OfertaLaboral.png);
+}
+.OfertaProvincia li{
+	color:white;
+	font-size: 2em;
+}
+.OfertaProvincia li a{
+	color:#F42A39;
+}
+footer{
+	background:#58595B;
+
+}
+footer p{
+	color:white;
+	font-size: 1.5em;
+}
+.btnIniciar,.btnCrear{
+	border:0px;
+	padding:2%;
+
+}
+.btnIniciar{
+	background: #F42A39;
+	color:white;
+}
+.btnCrear{
+	background: transparent;
+	color:#F42A39;
+	border:1px solid #F42A39;
+}
+
+@media only screen and (max-device-width:769px){
+	header{
+		background: url(../img/fondoHeaderMovil.png) no-repeat center;
+		margin:0;
+		padding: 0;
+	}
+	.cuadroBusqueda{
+		margin-left: -3%;
+		padding: 0!important;
+		width: 100%;
+		height: 100%;
+	}
+	.btnContacto,.btnEmpresa{
+		font-size: 1.8em;
+	}
+
+}
